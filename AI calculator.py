@@ -1,6 +1,6 @@
 
 '''
------ PLZ INSTALL THIS PACKAGES IN YOUR TARMINAL OR IDE -----
+----- PLEASE INSTALL THIS PACKAGES IN YOUR TARMINAL OR IDE -----
 
 PIP INSTALL MYWIN32
 PIP INSTALL DISPATCH
@@ -25,10 +25,10 @@ def speak(str):
     speak.speak(str)       # This is a speak function, i am using this all time in coding..
 
 
-speak('hello sir, i am assistant of junaid sir,')
-speak('sir, this is security purpose, plz enter password for opening this...')
+speak('hello sir, i am assistant of Junaid sir,')
+speak('sir, this is security purpose, please enter password for opening this...')
 print("\t\t\tPASSWORD - EVEN DEAD I AM THE HERO")
-speak('plz enter this password in capital latter, who show you in screen')
+speak(' Please enter this password in capital latter, which is being displayed on your smart Screen')
 hero_id =input("PASSWORD: ")
 
 while True:
@@ -53,7 +53,7 @@ while True:
             speak("sir, enter your second number")
             Second_number = float(input('Enter your second number: '))
             print('+,-,*,/,**,%')
-            speak("sir, choose your Arithmatic operation, who show you in your screen")
+            speak("sir, choose your Arithmatic operation amongst any of the operation which is being displayed on your smart Screen ")
             arithmatic_op = input("Enter arithmatic operation: ")
             if arithmatic_op == '+':
                 result = first_number + Second_number
@@ -86,7 +86,7 @@ while True:
                 print(result5)
                 speak(result5)
             else:
-                speak("Your input is not correct, plz try again...")
+                speak("Your input is not correct, please try again...")
     else:
         speak("sorry sir, this password is wrong")
         break
